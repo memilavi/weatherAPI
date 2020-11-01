@@ -6,4 +6,4 @@ app.get('/api/weather', (req, res)=>  {
     res.send("Temperature today is: " + temp);
 });
 
-app.listen(3000, ()=>console.log('Listening on port 3000'));
+app.listen(80, ()=>console.log('Listening on port 80'));
